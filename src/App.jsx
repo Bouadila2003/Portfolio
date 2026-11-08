@@ -186,10 +186,16 @@ function About({ t }) {
       <div className="container">
         <SectionHead kicker={t.about.kicker} title={t.about.title} />
         <div className="about-grid">
-          <figure className="about-photo reveal">
-            <img src="/gitex.webp" alt="Wafae Bouadila at GITEX Africa" loading="lazy" />
-            <figcaption>📍 {t.about.caption}</figcaption>
-          </figure>
+          <div className="about-photos reveal">
+            <figure className="about-photo main">
+              <img src="/gitex.webp" alt="Wafae Bouadila at GITEX Africa" loading="lazy" />
+              <figcaption>📍 {t.about.caption}</figcaption>
+            </figure>
+            <figure className="about-photo second">
+              <img src="/um6p.webp" alt="Wafae Bouadila at UM6P" loading="lazy" />
+              <figcaption>🎓 {t.about.caption2}</figcaption>
+            </figure>
+          </div>
           <div className="about-body">
             <p className="reveal">{t.about.p1}</p>
             <p className="reveal">{t.about.p2}</p>

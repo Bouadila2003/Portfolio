@@ -77,6 +77,7 @@ const fr = {
     p2:
       'Rigoureuse, autonome et motivée, je recherche un premier emploi où mettre mes compétences techniques et humaines au service de projets innovants — avec une curiosité particulière pour l’intelligence artificielle.',
     caption: 'GITEX Africa — Maroc',
+    caption2: 'UM6P — Ben Guerir',
     stats: [
       { value: '4+', label: 'Projets web réalisés' },
       { value: '3', label: 'Mois de stage en entreprise' },
@@ -187,6 +188,7 @@ const en = {
     p2:
       'Rigorous, autonomous and motivated, I’m looking for a first role where I can put my technical and human skills to work on innovative projects — with a special curiosity for artificial intelligence.',
     caption: 'GITEX Africa — Morocco',
+    caption2: 'UM6P — Ben Guerir',
     stats: [
       { value: '4+', label: 'Web projects built' },
       { value: '3', label: 'Months of internship' },

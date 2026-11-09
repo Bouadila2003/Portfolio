@@ -5,7 +5,7 @@ export const profile = {
   phoneHref: 'tel:+212617033368',
   location: 'Agadir, Maroc',
   github: 'https://github.com/Bouadila2003',
-  cv: '/CV-Wafae-Bouadila.pdf',
+  cv: { fr: '/CV_Wafae_Bouadila_FR.pdf', en: '/CV_Wafae_Bouadila_EN.pdf' },
 }
 
 export const skillGroups = [

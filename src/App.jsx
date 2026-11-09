@@ -117,7 +117,7 @@ function CodeCard() {
   )
 }
 
-function Hero({ t }) {
+function Hero({ t, lang }) {
   return (
     <section className="hero" id="top">
       <div className="container hero-grid">
@@ -137,7 +137,7 @@ function Hero({ t }) {
             <a href="#projects" className="btn primary">
               {t.hero.ctaProjects} <span aria-hidden>→</span>
             </a>
-            <a href={profile.cv} className="btn ghost" download>
+            <a href={profile.cv[lang]} className="btn ghost" download>
               {t.hero.ctaCv} <span aria-hidden>↓</span>
             </a>
           </div>
@@ -409,7 +409,7 @@ export default function App() {
       </div>
       <Nav t={t} lang={lang} setLang={setLang} />
       <main>
-        <Hero t={t} />
+        <Hero t={t} lang={lang} />
         <About t={t} />
         <Skills t={t} />
         <Journey t={t} />

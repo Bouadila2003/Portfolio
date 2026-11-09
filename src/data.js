@@ -86,8 +86,8 @@ const fr = {
     langsTitle: 'Langues',
     langs: [
       { name: 'Arabe', level: 'Maternelle', pct: 100 },
-      { name: 'Français', level: 'Intermédiaire', pct: 70 },
-      { name: 'Anglais', level: 'Technique', pct: 60 },
+      { name: 'Français', level: 'Courant', pct: 90 },
+      { name: 'Anglais', level: 'Courant', pct: 90 },
     ],
     softTitle: 'Qualités',
     soft: ['Autonomie & initiative', 'Résolution de problèmes', 'Gestion d’équipe', 'Animation de spectacles', 'Lecture', 'Innovation en IA'],
@@ -197,8 +197,8 @@ const en = {
     langsTitle: 'Languages',
     langs: [
       { name: 'Arabic', level: 'Native', pct: 100 },
-      { name: 'French', level: 'Intermediate', pct: 70 },
-      { name: 'English', level: 'Technical', pct: 60 },
+      { name: 'French', level: 'Fluent', pct: 90 },
+      { name: 'English', level: 'Fluent', pct: 90 },
     ],
     softTitle: 'Strengths',
     soft: ['Autonomy & initiative', 'Problem solving', 'Team management', 'Show hosting', 'Reading', 'AI innovation'],
